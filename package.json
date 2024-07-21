@@ -1,0 +1,22 @@
+{
+  "name": "surya-groot",
+  "version": "1.0.0",
+  "main": "g-root.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node g-root.mjs"
+  },
+  "bin": {
+    "groot": "./g-root.mjs"
+  },
+  "keywords": [],
+  "author": "Surya Prakash Chaudhary <suryac72@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "diff": "^5.2.0",
+    "ignore": "^5.3.1"
+  }
+}
