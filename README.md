@@ -13,6 +13,19 @@ GRoot is a simplified version control system implemented in Node.js. It mimics b
 - **Stash Changes**: Temporarily save changes for later use.
 - **Ignore Files**: Use `.grootignore` to exclude files and directories from version control.
 
+
+## groot Commands
+
+- **groot init**: Initialize Repository
+- **groot add file-name**: Stage files or directories for tracking.
+- **groot add .** : Stage all files or directories for tracking.
+- **groot commit -m message**: Save changes to the repository with a message.
+- **groot log**: List all commits with their details.
+- **groot diff**: Compare changes between commits.
+- **groot status**: View the status of the working directory and staging area.
+- **groot stash**: Temporarily save changes for later use.
+
+
 ## Installation
 
 To use GRoot, you need Node.js and npm installed on your machine. Follow these steps to install GRoot globally:
